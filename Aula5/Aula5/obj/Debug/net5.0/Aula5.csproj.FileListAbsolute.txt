@@ -1,0 +1,16 @@
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\bin\Debug\net5.0\Aula5.exe
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\bin\Debug\net5.0\Aula5.deps.json
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\bin\Debug\net5.0\Aula5.runtimeconfig.json
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\bin\Debug\net5.0\Aula5.runtimeconfig.dev.json
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\bin\Debug\net5.0\Aula5.dll
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\bin\Debug\net5.0\ref\Aula5.dll
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\bin\Debug\net5.0\Aula5.pdb
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\Aula5.csproj.AssemblyReference.cache
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\Aula5.GeneratedMSBuildEditorConfig.editorconfig
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\Aula5.AssemblyInfoInputs.cache
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\Aula5.AssemblyInfo.cs
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\Aula5.csproj.CoreCompileInputs.cache
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\Aula5.dll
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\ref\Aula5.dll
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\Aula5.pdb
+C:\aula\Csharp\2021\Turma5\Aula5\Aula5\obj\Debug\net5.0\Aula5.genruntimeconfig.cache
