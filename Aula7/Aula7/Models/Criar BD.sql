@@ -11,3 +11,17 @@ CREATE TABLE aluno(
 );
 
 SELECT * FROM aluno;
+
+
+-- USUARIO
+
+CREATE TABLE usuario(
+	id		int not null primary key identity(1,1),
+	nome	varchar(100),
+	senha	varchar(20)
+);
+
+insert into usuario(nome, senha) values('daniel', '123');
+insert into usuario(nome, senha) values('caio', '456');
+
+select * from usuario;
