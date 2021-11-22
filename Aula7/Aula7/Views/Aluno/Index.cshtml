@@ -1,4 +1,5 @@
-﻿@{
+﻿@model System.Data.DataTable
+@{
 
 }
 
@@ -47,7 +48,27 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="x_content">
-                        Add content to the page ...
+                        
+                        Lista de Alunos<br />
+
+                        <table class="table table-bordered table-striped">
+                            <tr>
+                                <th>Nome</th>
+                                <th>RA</th>
+                                <th>CPF</th>
+                                <th>Idade</th>
+                            </tr>
+                            @for ( int i=0; i < Model.Rows.Count; i++)
+                            {
+                                <tr>
+                                    <td>@Model.Rows[i][1]</td>
+                                    <td>@Model.Rows[i][2]</td>
+                                    <td>@Model.Rows[i][3]</td>
+                                    <td>@Model.Rows[i][4]</td>
+                                </tr>
+                            }
+                        </table>
+
                     </div>
                 </div>
             </div>

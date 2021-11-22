@@ -11,9 +11,11 @@ namespace Aula7.Controllers
     public class AlunoController : Controller
     {
         // GET: AlunoController
+        [HttpGet]
         public ActionResult Index()
         {
-            return View();
+            AlunoModel aModel = new AlunoModel();
+            return View(aModel.Listar());
         }
 
         // GET: AlunoController/Details/5

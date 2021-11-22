@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,6 +16,21 @@ namespace Aula7.Models
         public int idade { get; set; }
 
         readonly String connectionString = @"Data Source=DELL\SQLEXPRESS;Initial Catalog=AVA5;Integrated Security=True";
+
+        public DataTable Listar() {
+
+            DataTable alunos = new DataTable();
+
+            using(SqlConnection sqlCon = new SqlConnection(connectionString))
+            {
+                sqlCon.Open();
+                SqlDataAdapter sqlDT = new SqlDataAdapter("select * from aluno order by nome asc", sqlCon);
+                sqlDT.Fill(alunos);
+            }
+            return alunos;
+        }
+
+
 
         public void Salvar() {
 
